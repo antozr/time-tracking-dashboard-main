@@ -1,10 +1,35 @@
+@use"./profil.scss";
+@use"./font.scss";
+
 *{
     padding: 0;
     margin: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --color-blue: hsl(246, 80%, 60%);
+    --color-lRed: hsl(15, 100%, 70%);
+    --color-sBlue: hsl(195, 74%, 62%);
+    --color-red:hsl(348, 100%, 68%);
+    --color-green: hsl(145, 58%, 55%);
+    --color-violet: hsl(264, 64%, 52%);
+    --color-orange: hsl(43, 84%, 65%);
+
+    --vdark-blue: hsl(226, 43%, 10%);
+    --dark-blue: hsl(235, 46%, 20%);
+    --desat-blue: hsl(235, 45%, 61%);
+    --pale-blue: hsl(236, 100%, 87%);
+
+    --color-txt: #FCFEFF;
 }
 
 body{
     font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    background-color: var(--vdark-blue);
+    color: var(--color-txt);
 }

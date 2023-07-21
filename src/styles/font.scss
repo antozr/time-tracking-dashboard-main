@@ -1,0 +1,17 @@
+.sect {
+  &__title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 90%;
+    letter-spacing: -0.36px;
+
+    &--2{
+        font-size: 24px;
+    }
+  }
+
+  &__txt{
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
