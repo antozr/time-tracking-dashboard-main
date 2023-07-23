@@ -8,6 +8,12 @@
     border-radius: 14px;
     background-color: var(--dark-blue);
   }
+
+  &__list{
+    width: 100%;
+    height: auto;
+    margin: 23px 0;
+  }
 }
 .card {
   &__profil {
@@ -40,7 +46,7 @@
     letter-spacing: -1.1px;
 color: var( --desat-blue);
     &--actif{
-        font-weight: 500;
+        font-weight: 400;
         color: var(--color-txt);
     }
 

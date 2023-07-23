@@ -12,44 +12,99 @@
 		<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
 		<title>Frontend Mentor | Time tracking dashboard</title>
-		<script src="./scripts/main.js" defer></script>
+		<script src="./scripts/main.js" defer type="module"></script>
 
 
 	</head>
 	<body>
 
-  <main class="main">
-  
-  <div class="main__card">
-  <div class="card__profil">
-	<img src="./assets/images/image-jeremy.png" alt="This is jeremy." class="profil__img" loading="lazy">
-	
-	<div class="profil__boxTxt">
-	<p class="sect__txt">
-	Report for
-	</p>
-	<h2 class="sect__title sect__title--2">
-	 Jeremy Robson
-	</h2>
-	</div>
-  </div>
-  <ul class="card__list">
-	<el class="card__el"><a href="#" class="card__link card__link--actif">Daily</a></el>
-	<el class="card__el"><a href="#" class="card__link">Weekly</a></el>
-	<el class="card__el"><a href="@" class="card__link">Monthly</a></el>
-  </ul>
-  </div>
-  </main>
+		<main class="main">
 
-	
-		 
-		
-		  Daily
-		  Weekly
-		  Monthly
-		
-		  Work
-		  5hrs
+			<div class="main__card">
+				<div class="card__profil">
+					<img src="./assets/images/image-jeremy.png" alt="This is jeremy." class="profil__img" loading="lazy">
+
+					<div class="profil__boxTxt">
+						<p class="sect__txt">
+							Report for
+						</p>
+						<h2 class="sect__title sect__title--2">
+							Jeremy Robson
+						</h2>
+					</div>
+				</div>
+				<ul class="card__list">
+					<el class="card__el">
+						<p class="card__link card__link--actif">Daily</p>
+					</el>
+					<el class="card__el">
+						<p class="card__link">Weekly</p>
+					</el>
+					<el class="card__el">
+						<p class="card__link">Monthly</p>
+					</el>
+				</ul>
+			</div>
+
+			<div class="main__list">
+				<ul class="main__ul">
+					<li class="main__el">
+
+						<div class="el__decorBox">
+							<img src="./assets/images/icon-work.svg" alt="This is a SVG of WORK." class="el__decorImg">
+						</div>
+						<div class="el__boxCont">
+							<div class="el__boxTitle">
+								<p class="sect__txt">
+									Work
+								</p>
+								<img src="./assets/images/icon-ellipsis.svg" alt="This is an SVG of a option menu" class="el__imgOption">
+							</div>
+							<div class="el__boxInfo">
+								<p class="sect__txt sect__txt--big">
+									32hrs
+								</p>
+								<p class="sect__txt">
+									Previous -
+									<span class="previousHr" id="workPrevious"></span>hrs
+								</p>
+							</div>
+						</div>
+					</li>
+					<li class="main__el">
+
+						<div class="el__decorBox">
+							<img src="./assets/images/icon-play.svg" alt="This is a SVG of WORK." class="el__decorImg">
+						</div>
+						<div class="el__boxCont">
+							<div class="el__boxTitle">
+								<p class="sect__txt">
+									Play
+								</p>
+								<img src="./assets/images/icon-ellipsis.svg" alt="This is an SVG of a option menu" class="el__imgOption">
+							</div>
+							<div class="el__boxInfo">
+								<p class="sect__txt sect__txt--big">
+									32hrs
+								</p>
+								<p class="sect__txt">
+									Previous -
+									<span class="previousHr" id="workPrevious"></span>hrs
+								</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</main>
+
+
+		Daily
+								  Weekly
+								  Monthly
+								
+								  Work
+								  5hrs
 		<!-- daily -->
 		Previous - 7hrs
 		<!-- daily -->
@@ -63,7 +118,7 @@
 		<!-- monthly -->
 
 		Play
-		  1hr
+								  1hr
 		<!-- daily -->
 		Previous - 2hrs
 		<!-- daily -->
@@ -77,7 +132,7 @@
 		<!-- monthly -->
 
 		Study
-		  0hrs
+								  0hrs
 		<!-- daily -->
 		Previous - 1hr
 		<!-- daily -->
@@ -91,7 +146,7 @@
 		<!-- monthly -->
 
 		Exercise
-		  1hr
+								  1hr
 		<!-- daily -->
 		Previous - 1hr
 		<!-- daily -->
@@ -105,7 +160,7 @@
 		<!-- monthly -->
 
 		Social
-		  1hr
+								  1hr
 		<!-- daily -->
 		Previous - 3hrs
 		<!-- daily -->
@@ -119,7 +174,7 @@
 		<!-- monthly -->
 
 		Self Care
-		  0hrs
+								  0hrs
 		<!-- daily -->
 		Previous - 1hr
 		<!-- daily -->
@@ -136,7 +191,7 @@
 		<div class="attribution">
 			Challenge by
 			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-				    Coded by
+																    Coded by
 			<a href="#">Your Name Here</a>.
 		</div>
 	</body>
