@@ -21,6 +21,18 @@
         &:nth-child(2){
             background-color: var(--color-sBlue);
         }
+        &:nth-child(3){
+            background-color: var(--color-red);
+        }
+        &:nth-child(4){
+            background-color: var(--color-green);
+        }
+        &:nth-child(5){
+            background-color: var(--color-violet);
+        }
+        &:nth-child(6){
+            background-color: var(--color-orange);
+        }
     }
 }
 
