@@ -13,6 +13,8 @@
         width: 100%;
         height: 160px;
         border-radius: 14px;
+
+
         &:nth-child(1){
             background-color: var(--color-lRed);
         }
@@ -38,6 +40,7 @@
         height: 80px;
         object-fit: cover;
         transform: translateY(-11px);
+
     }
 
     &__boxCont{
@@ -52,6 +55,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
+        transition: 0.2s;
+
+        &:hover{
+            transition: 0.4s;
+            background-color: var(--desat-blue);
+
+        }
     }
     &__boxTitle{
         width: 100%;
@@ -62,13 +73,28 @@
         align-items: center;
 
         margin: 0 0 16px 0;
+        &>p{
+            font-size: 18px;
+            font-weight: 500;
+        }
     }
+&__imgOption{
+transition: 0.3s;
 
+    cursor: pointer;
+        &:hover{
+           transition: 0.3s;
+               &>path{
+                fill: var(--color-txt);
+               }
+            
+        }
+}
     &__boxInfo{
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-content: flex-end;
+        align-items: flex-end;
     }
 }

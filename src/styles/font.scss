@@ -13,5 +13,10 @@
   &__txt{
     font-size: 15px;
     font-weight: 400;
+
+    &--big{
+      font-size: 32px;
+      font-weight: 300;
+    }
   }
 }
