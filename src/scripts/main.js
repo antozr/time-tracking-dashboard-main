@@ -75,9 +75,9 @@ allBtnLink.forEach((el) => {
   el.addEventListener("click", () => {
     removeActifLink();
     el.classList.add("card__link--actif");
-    console.log(el.innerText);
+    
     actifStateDay = el.innerText.toLowerCase();
-    console.log(actifStateDay);
+    
     dataChange(el.innerText.toLowerCase());
   });
 });
