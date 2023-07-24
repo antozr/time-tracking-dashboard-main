@@ -20,3 +20,24 @@
     }
   }
 }
+
+.attribution{
+
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 4vw 6vh 4vw;
+  
+  &>a{
+    color: var(--color-orange);
+    font-weight: 300;
+    transition: 0.2s;
+    cursor: pointer;
+
+    &:hover{
+      transition: 0.3s;
+      color: var(--pale-blue);
+    }
+  }
+  }
