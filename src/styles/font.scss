@@ -41,3 +41,18 @@
     }
   }
   }
+
+
+  @media(min-width: 600px){
+
+    .sect{
+
+      &__title{
+
+        &--2{
+          font-size: 40px;
+          line-height: 116%;
+        }
+      }
+    }
+  }
