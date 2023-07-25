@@ -108,6 +108,8 @@ transition: 0.3s;
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-end;
+
+        
     }
 }
 
@@ -128,6 +130,13 @@ transition: 0.3s;
     .el{
         &__boxCont{
             padding: 0 2.5vw;
+            justify-content: space-between;
+            padding: 4vh 2.5vw;
+        }
+        &__boxInfo{
+            flex-direction: column;
+            row-gap: 4px;
+            align-items: start;
         }
     }
 }
